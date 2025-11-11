@@ -1,3 +1,35 @@
+# ======== ESP8266 / ESP-IDF / Arduino Project ========
+
+# Build output
 build/
+*.bin
+*.elf
+*.hex
+
+# VS Code and development environment
+.vscode/
+.devcontainer/
+.idea/
+.clangd
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+*.swp
+
+# CMake and SDK cache files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
 sdkconfig
 sdkconfig.old
+
+# Arduino build folders
+*.ino.cpp
+*.d
+*.o
+
+# Backup or OS specific
+.DS_Store
+Thumbs.db
