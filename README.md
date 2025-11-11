@@ -67,7 +67,6 @@ main/
 
 
 ### 🧱 Build Instructions (ESP-IDF)
-```bash
 idf.py set-target esp8266
 idf.py build
 idf.py flash
