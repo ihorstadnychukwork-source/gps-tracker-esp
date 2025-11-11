@@ -55,7 +55,7 @@ It receives NMEA data from a GPS module (such as u-blox NEO-6M), parses coordina
 ---
 
 ### 🧰 Project Structure
-
+```text
 main/
 ├── main.c # Main logic
 ├── gps_parser.c/.h # GPS parsing
@@ -64,7 +64,7 @@ main/
 ├── hw_config.c # Configuration
 ├── gps_types.h # Data types
 └── CMakeLists.txt # Build configuration
-
+```
 
 ### 🧱 Build Instructions (ESP-IDF)
 idf.py set-target esp8266
@@ -121,6 +121,7 @@ GitHub: ihorstadnychukwork-source
 
 
 🧰 Структура проєкту
+```text
 main/
  ├── main.c               # Основна логіка програми
  ├── gps_parser.c/.h      # Обробка GPS-даних
@@ -129,7 +130,7 @@ main/
  ├── hw_config.c          # Конфігурація модулів
  ├── gps_types.h          # Структури даних
  └── CMakeLists.txt       # Конфігурація збірки
-
+```
 
 🧱 Збірка проєкту (ESP-IDF)
 idf.py set-target esp8266
